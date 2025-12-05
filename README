@@ -1,0 +1,9 @@
+For running the program there are just a few steps.
+First, create a text file with content. The one on the github is the recommended, with an appropiate size.
+You can change the input file in this part of the code: int main() {
+    string path = "input_100MB.txt"; // change to your input file
+After that, you would want to choose the number of threads, you can change them in this part of the code (line 154): 
+  // 2) Parallel time
+int num_threads = 16;  // other possibilities tried: 1, 2, 4, 8, 16 
+Once you have the file created or downloaded and referenced in the cpp, and the desired number of threads, you just need to compile it activating the OpenMP and run it in your desired program.
+  
